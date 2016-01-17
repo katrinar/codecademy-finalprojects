@@ -109,7 +109,7 @@ switch(beatkumo){
 	default:
 };
 
-
+//send to sakana but battle denied
 switch(lostkumo){
 	case "ok":
 	prompt(sakanabattle.denied);

@@ -19,7 +19,7 @@ var battle = {
 	};
 
 var sakanabattle = {
-	denied: "Ekk! It's Sakana. It looks like he was expecting us...\n\nSakana: Oh it's you. My guards warned me about you. Sounds like you didn't beat them. Doesn't seem like I should waste my time on you... ",
+	denied: "Eek! It's Sakana. It looks like he was expecting us...\n\nSakana: Oh it's you. My guards warned me about you. Sounds like you didn't beat them. Doesn't seem like I should waste my time on you... ",
 	begin: "It's Sakana! Let's see what he has to say...\n\n Sakana: So...I hear you defeated my guard. I'm surprised you made it this far."
 };
 
