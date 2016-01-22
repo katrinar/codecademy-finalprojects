@@ -10,7 +10,7 @@ switch (firstLocation) {
 	var lizard = prompt(locations.desertlizard);
 	break;
 	case "jungle":
-	var bugsprayone = prompt(locations.junglespray);
+	var bugspray = prompt(locations.junglespray);
 	break;
 	default:
 };
@@ -27,11 +27,11 @@ switch(lizard) {
 
 while (slaying) {
     if (youHit){
-        alert("The lizard bit Hachi");
+        alert("Yes! The lizard bit Hachi");
         totalDamage += damageThisRound;
         if (totalDamage >= 0) {
            alert("You defeated Hachi!");
-           var beathachi = prompt("Let's keep moving to the mountains and find Sakana. Are you ready? --type 'yes' -- ");
+           var beathachi = prompt("Let's keep moving to the mountains and find Sakana. Are you ready? --- type 'yes' --- ");
             slaying = false;
         }
         else {
@@ -47,16 +47,17 @@ while (slaying) {
 
 //move to sakana battle
 switch(beathachi){
-	case "yes": 
+	case "yes":
 	prompt(sakanabattle.begin);
 	break;
 	default:
 };
 
-
-switch(losthachi){
+//send to sakana battle but denied
+switch(losthachi) {
 	case "ok":
-	prompt(sakanabattle.denied);
+	alert(sakanabattle.denied);
+	alert(sakanabattle.exit);
 	break;
 	default:
 };
@@ -64,15 +65,16 @@ switch(losthachi){
 beginbattle();
 	break;
 	case "nay":
-	prompt(battle.nolizard);
+	alert(battle.nolizard);
+	alert(sakanabattle.denied);
+	alert(sakanabattle.exit);
 	break;
 	default:
-};
-
+};	
 
 
 //battle kumo with bug spray
-switch(bugsprayone) {
+switch(bugspray) {
 	case "yay":
 	var beginbattle = function() {
 	prompt(battle.bugspray);
@@ -87,7 +89,7 @@ while (slaying) {
         totalDamage += damageThisRound;
         if (totalDamage >= 0) {
         alert("You defeated Kumo!");
-        var beatkumo = prompt("Now we can move on to the mountains and find Sakana. Should we keep moving to the mountains? -- say 'yes'--")
+        var beatkumo = prompt("Now we can move on to the mountains and find Sakana. Should we keep moving to the mountains? --- type 'yes' ---")
             slaying = false;
         }
         else {
@@ -96,7 +98,7 @@ while (slaying) {
     }
     else {
         alert("oh no! Kumo's spiders carried the bug spray away. Let's make a run for it!");
-        var lostkumo = prompt("Let's go to the mountains.\n\n --- type 'ok'--- ");
+        var lostkumo = prompt("Let's go to the mountains.\n\n --- type 'ok' --- ");
     }
     slaying = false;
 };
@@ -112,7 +114,8 @@ switch(beatkumo){
 //send to sakana but battle denied
 switch(lostkumo){
 	case "ok":
-	prompt(sakanabattle.denied);
+	alert(sakanabattle.denied);
+	alert(sakanabattle.exit);
 	break;
 	default:
 };
@@ -121,7 +124,9 @@ switch(lostkumo){
 beginbattle();
 	break;
 	case "nay":
-	prompt(battle.nobugspray);
+	alert(battle.nobugspray);
+	alert(sakanabattle.denied);
+	alert(sakanabattle.exit);
 	break;
 	default:
 };

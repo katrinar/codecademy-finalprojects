@@ -12,15 +12,17 @@ var locations = {
 //outcomes of first battle
 var battle = {
 	lizard: "It's Hachi! Throw the lizard at him, ok? \n-- type 'ok'", 
-	nolizard: "Alright. Let's keep walking...\n\n We made it to the mountain", 
+	nolizard: "Alright. Let's keep walking to the mountains...", 
 	bugspray: "It's Kumo! Spray him with the bug spray! \n-- type 'ok'",
 	nobugspray: "Hm, ok. That would've come in handy, though....\n\nI see the mountains.",
 	exit: ""
 	};
 
 var sakanabattle = {
-	denied: "Eek! It's Sakana. It looks like he was expecting us...\n\nSakana: Oh it's you. My guards warned me about you. Sounds like you didn't beat them. Doesn't seem like I should waste my time on you... ",
-	begin: "It's Sakana! Let's see what he has to say...\n\n Sakana: So...I hear you defeated my guard. I'm surprised you made it this far."
+	denied: "In the mountains....\n\nEek! It's Sakana. It looks like he was expecting us...\n\nSakana: Oh it's you. My guards warned me about you. Sounds like you didn't beat them. Doesn't seem like I should waste my time on you... Get out of here!",
+	exit: "You have been trapped by Sakana! \n\nGame Over \n\n :(",
+	begin: "It's Sakana! Let's see what he has to say...\n\n Sakana: So...I hear you defeated my guard. I'm surprised you made it this far. \n\n...i'll tell you what...if you can tell me what my name means, I will take it easy on you...if not, then I show no mercy! Tell me....what does my name mean? --- type your answer: ---",
+	initiate: "Well, what are we waiting for? Let's battle!!!"
 };
 
 
