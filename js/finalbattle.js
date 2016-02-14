@@ -2,7 +2,7 @@
 
 //sakana battle starts after from desertbattle.js or junglebattle.js
 
-if (riddle === "fish") {
+if (var riddle === "fish") {
 	alert(sakanabattle.initiate);
 	var beginbattle = function() {
 	var slaying = true;

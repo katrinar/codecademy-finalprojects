@@ -1,5 +1,5 @@
 //first battle against hachi
-if (lizard === "yay") {
+if (var lizard === "yay") {
 	var beginbattle = function() {
 	prompt(battle.lizard);
 	var slaying = true;

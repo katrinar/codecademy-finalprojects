@@ -1,5 +1,5 @@
 //first battle against kumo
-if (bugspray === "yay") {
+if (var bugspray === "yay") {
 	var beginbattle = function() {
 	prompt(battle.bugspray);
 	var slaying = true;
