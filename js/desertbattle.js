@@ -1,7 +1,5 @@
 //first battle against hachi
-if (var lizard === "yay") {
-	var beginbattle = function() {
-	prompt(battle.lizard);
+var beginDesertbattle = function() {
 	var slaying = true;
 	var youHit = Math.floor(Math.random()*2);
 	var damageThisRound = Math.floor(Math.random()*5+1);
@@ -25,12 +23,13 @@ while (slaying) {
         var losthachi = prompt("Let's move on to the mountains.\n\n --- type 'ok'--- ");
     }
     slaying = false;
-}
+};
 
 //move to sakana battle -- finalbattle.js
 switch(beathachi){
 	case "yes":
 	riddle = prompt(sakanabattle.begin);
+	finalBattle();
 	break;
 	default:
 };
@@ -44,11 +43,19 @@ switch(losthachi) {
 	default:
 };
 };
-beginbattle();
+
+function desertBattle() {
+
+if (lizard === "yay") {
+	prompt(battle.lizard);
+	beginDesertbattle();
 }
 else {
 	alert(battle.nolizard);
 	alert(sakanabattle.denied);
 	alert(sakanabattle.exit);
 };
+};
+
+
 

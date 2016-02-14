@@ -1,14 +1,11 @@
 
 
 //sakana battle starts after from desertbattle.js or junglebattle.js
-
-if (var riddle === "fish") {
-	alert(sakanabattle.initiate);
-	var beginbattle = function() {
-	var slaying = true;
-	var youHit = Math.floor(Math.random()*2);
-	var damageThisRound = Math.floor(Math.random()*5+1);
-	var totalDamage = 0;
+var beginFinalbattle = function() {
+    var slaying = true;
+    var youHit = Math.floor(Math.random()*2);
+    var damageThisRound = Math.floor(Math.random()*5+1);
+    var totalDamage = 0;
 
 while (slaying) {
     if (youHit){
@@ -26,13 +23,18 @@ while (slaying) {
     else {
         alert("oh no! Sakana hit you.");
         alert(sakanabattle.exit);
-    }
+    };
     slaying = false;
-}
-}
-beginbattle();
+};
+};
+
+function finalBattle() {
+if (riddle === "fish") {
+	alert(sakanabattle.initiate);
+    beginFinalbattle();
 }
 else {
 	alert("Hmm you don't know me!");
     alert(sakanabattle.exit)
+};
 };

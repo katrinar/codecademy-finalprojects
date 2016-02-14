@@ -1,7 +1,5 @@
 //first battle against kumo
-if (var bugspray === "yay") {
-	var beginbattle = function() {
-	prompt(battle.bugspray);
+var beginJunglebattle = function() {
 	var slaying = true;
 	var youHit = Math.floor(Math.random()*2);
 	var damageThisRound = Math.floor(Math.random()*5+1);
@@ -31,6 +29,7 @@ while (slaying) {
 switch(beatkumo){
 	case "yes":
 	riddle = prompt(sakanabattle.begin);
+	beginFinalbattle();
 	break;
 	default:
 };
@@ -44,10 +43,17 @@ switch(lostkumo) {
 	default:
 };
 };
-beginbattle();
+
+
+function jungleBattle() {
+if (bugspray === "yay") {
+	prompt(battle.bugspray);
+	beginJunglebattle();
+	
 }
 else {
 	alert(battle.nobugspray);
 	alert(sakanabattle.denied);
 	alert(sakanabattle.exit);
+};
 };
