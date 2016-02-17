@@ -11,6 +11,7 @@
     <script src="js/junglebattle.js"></script>
     <script src="js/finalbattle.js"></script> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
     <script src="js/script.js"></script>
   </head>
 
@@ -24,7 +25,7 @@
         <div id="robotClick">click me</div>
 
       <div id="intro">
-        <div id="nameBox" class="forms">
+        <div id="nameBox" class="hidden">
           <form name="nameForm"> Who are you? <br>
             <input type="text" name="firstname"><br>
           </form> <br>
@@ -34,25 +35,32 @@
         <div id="intro-name" class="textbox"></div> 
        </div>  
         
-          <div id="location-option" class="forms">
+          <div id="location-option" class="hidden">
             <button class="desert">
               <img src="https://media.giphy.com/media/RM7ObEq9bjBJe/giphy.gif"/>
             </button> <br>
 
-           <button class="jungle">
+            <button class="jungle">
               <img src="https://media.giphy.com/media/DTN6FUAkB8gpy/giphy.gif"/>
             </button> <br>
-
           </div> 
 
           <div id="intro-location" class="textbox"></div> 
-        
 
-    
 
-        
+    <div id="weapon-bugspray" class="hidden">  
+        <button class="bugspray">
+          <img src="https://media.giphy.com/media/145VOXSCZ6rIAM/giphy.gif"/>
+        </button>  
+    </div> 
 
-   
+    <div id="weapon-lizard" class="hidden"> 
+      <button class="lizard">
+        <img src="https://media.giphy.com/media/vitpEFg3J4Zhu/giphy.gif"/>
+      </button>  
+    </div>   
+
+  
 
     <div id="footer">
       <p >Tks4playing</p>

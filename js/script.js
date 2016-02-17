@@ -23,13 +23,15 @@ $(document).ready(function() {
    $(".jungle").click(function(){
       $('#location-option').hide();
       $("#intro-name").hide();
-      $("#intro-location").append('<div id="intro-location">' + locations.desertlizard + '</div>');
+      $("#intro-location").append('<div id="intro-location">' + locations.junglespray + '</div>');
+      $("#weapon-bugspray").show();
    }); 
 
     $(".desert").click(function(){
       $('#location-option').hide();
       $("#intro-name").hide();
-      $("#intro-location").append('<div id="intro-location">' + locations.junglespray + '</div>');
+      $("#intro-location").append('<div id="intro-location">' + locations.desertlizard + '</div>');
+      $("#weapon-lizard").show();
    }); 
      
 
