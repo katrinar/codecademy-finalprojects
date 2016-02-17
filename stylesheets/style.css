@@ -1,0 +1,56 @@
+body {
+	background-image: url('http://i58.tinypic.com/2ito8hx.jpg');
+	repeat: no-repeat;
+	min-height: 100%;
+}
+
+img {
+	position:relative, center;
+	left: 0;
+	top: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+.textbox {
+	background-color: white;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 300px;
+}
+
+
+#playButton {
+    display: inline-block;
+    height:20px;
+	width:80px;
+	background-color: black;
+	font-family:arial;
+	font-weight:bold;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	margin-top:2px;
+}
+
+.forms {
+	display: none;
+}
+
+.jungle {
+	float: left;
+	display: inline-block;
+	position: center;
+}
+
+.desert {
+	float: right;
+	display: inline-block;
+	position: center;
+}

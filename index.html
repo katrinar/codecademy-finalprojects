@@ -3,7 +3,7 @@
 	<head>
 		<title>GameBook</title>
           
-    <link rel="stylesheet" type="text/css" href="style.css"></style>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 		
 		<script src="js/controller.js"></script>
     <script src="js/main.js"></script>
@@ -15,12 +15,50 @@
   </head>
 
 <body>
-  Welcome to Jangaru! Click on me.
-  
-  <button class="robot">
-   <img src="http://i39.tinypic.com/2z3uk4j.jpg" border="0"/>
- </button>
+  <div id="wrapper">
+    <h1>Welcome to Jangaru! </h1>
+      <button class="robot">
+          <img src="http://i39.tinypic.com/2z3uk4j.jpg" border="0"/>
+      </button>
+
+        <div id="robotClick">click me</div>
+
+      <div id="intro">
+        <div id="nameBox" class="forms">
+          <form name="nameForm"> Who are you? <br>
+            <input type="text" name="firstname"><br>
+          </form> <br>
+          <button id="playButton">Let me in!</button><br>
+        </div> 
+
+        <div id="intro-name" class="textbox"></div> 
+       </div>  
+        
+          <div id="location-option" class="forms">
+            <button class="desert">
+              <img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/desert.png"/>
+            </button> <br>
+
+           <button class="jungle">
+              <img src="https://pbs.twimg.com/profile_images/378800000072921331/ecb6edfa73f25a3857df7991f1466962.jpeg"/>
+            </button> <br>
+
+          </div> 
+
+          <div id="intro-location" class="textbox"></div> 
+        
+
+    
+
+        
+
    
+
+    <div id="footer">
+      <p >Tks4playing</p>
+    </div>
+
+  </div>   
 </body>
 
 </html>

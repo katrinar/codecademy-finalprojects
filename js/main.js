@@ -1,7 +1,6 @@
 //story text; pieced together in controller.js
 var setup = {
-	greeting: "Welcome to Janguru. \nI have a feeling you are...the CHOSEN ONE. What is your name?",
-	question: " Ahh, yes. I had a feeling you were arriving. \n\nYou're here to defeat Sakana, aren't you? He's taken over our land, Janguru and we NEED YOU to fight him. \n\nHe lives in the mountains. To get there we will have to fight his guards, Hachi and Kumo, first. We can get to the mountains by crossing the desert or the jungle \n\nWhere should we go first? --- 'desert' or 'jungle' ---"
+	greeting: "Welcome to Janguru. \nI have a feeling you are...the CHOSEN ONE. \n\nYou're here to defeat Sakana, aren't you? He's taken over our land, Janguru and we NEED YOU to fight him. \n\nHe lives in the mountains. To get there we will have to fight his guards, Hachi and Kumo, first. We can get to the mountains by crossing the desert or the jungle \n\nWhere should we go first?"
 };
 
 var locations = {
